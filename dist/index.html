@@ -24,15 +24,24 @@
 
 <head>
 
-<!-- Google Analytics better for newer browsers -->
-    <script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173108334-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173108334-1');
+</script>
+<!--
+<script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
     ga('create', 'UA-XXXXX-Y', 'auto');
     ga('require', 'displayfeatures');
     ga('send', 'pageview');
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <!-- End Google Analytics --> 
+     End Google Analytics --> 
 </head>
 
 <body style="margin : 0px; overflow: hidden;">
